@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5aee9b02d2d66174b893127d3a7f36a5",
+    "content-hash": "db3a3797a3297d626cdc838e287f37a2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -894,16 +894,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "dev-feat/parallel-testing",
+            "version": "dev-feat/adds-parallel-testing",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/framework.git",
-                "reference": "dc84ab9f48191586e9b03d1c22c8894aee9625e4"
+                "reference": "6418fed24dbd58b579a9e9d00b3713f0f9ac9648"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/framework/zipball/dc84ab9f48191586e9b03d1c22c8894aee9625e4",
-                "reference": "dc84ab9f48191586e9b03d1c22c8894aee9625e4",
+                "url": "https://api.github.com/repos/nunomaduro/framework/zipball/6418fed24dbd58b579a9e9d00b3713f0f9ac9648",
+                "reference": "6418fed24dbd58b579a9e9d00b3713f0f9ac9648",
                 "shasum": ""
             },
             "require": {
@@ -1067,7 +1067,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2020-12-31T12:51:05+00:00"
+            "time": "2021-01-04T14:02:30+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -5335,12 +5335,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/collision.git",
-                "reference": "5f3e741485176f0652bc1824f8632c0230fa691a"
+                "reference": "b8e0065d8d3cd70dfc28bab709dae8aac4b360e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/5f3e741485176f0652bc1824f8632c0230fa691a",
-                "reference": "5f3e741485176f0652bc1824f8632c0230fa691a",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/b8e0065d8d3cd70dfc28bab709dae8aac4b360e1",
+                "reference": "b8e0065d8d3cd70dfc28bab709dae8aac4b360e1",
                 "shasum": ""
             },
             "require": {
@@ -5350,16 +5350,17 @@
                 "symfony/console": "^5.0"
             },
             "require-dev": {
-                "fideloper/proxy": "^4.4.0",
-                "friendsofphp/php-cs-fixer": "^2.16.4",
-                "fruitcake/laravel-cors": "^2.0.1",
-                "laravel/framework": "^8.0",
-                "laravel/tinker": "^2.4.1",
+                "brianium/paratest": "^6.1",
+                "fideloper/proxy": "^4.4.1",
+                "friendsofphp/php-cs-fixer": "^2.17.3",
+                "fruitcake/laravel-cors": "^2.0.3",
+                "laravel/framework": "^9.0",
+                "laravel/tinker": "^2.5|dev-develop",
                 "nunomaduro/larastan": "^0.6.2",
                 "nunomaduro/mock-final-classes": "^1.0",
-                "orchestra/testbench": "^6.0",
-                "phpstan/phpstan": "^0.12.36",
-                "phpunit/phpunit": "^9.3.3"
+                "orchestra/testbench": "^7.0",
+                "phpstan/phpstan": "^0.12.64",
+                "phpunit/phpunit": "^9.5.0"
             },
             "type": "library",
             "extra": {
@@ -5415,7 +5416,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-12-31T15:10:20+00:00"
+            "time": "2021-01-04T13:22:41+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -7192,7 +7193,7 @@
     "aliases": [
         {
             "package": "laravel/framework",
-            "version": "dev-feat/parallel-testing",
+            "version": "dev-feat/adds-parallel-testing",
             "alias": "9.0",
             "alias_normalized": "9.0.0.0"
         },
